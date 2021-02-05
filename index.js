@@ -27,7 +27,6 @@ const { MongoClient, ObjectId } = require('mongodb');
   */
 
   const mensagens = db.collection('mensagens');
-    const mensagens = undefined;
 
   app.get('/', (req, res) => {
     res.send('Hello World!');
